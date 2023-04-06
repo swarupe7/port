@@ -1,38 +1,24 @@
-import Sidebar from './components/Sidebar';
-import Feed from './components/Feed';
-import Rightbar from './components/Rightbar';
-import Navbar from './components/Navbar';
-import {Box, Container, Stack,ThemeProvider} from "@mui/material";
-import Add from './components/Add';
-import React,{useState} from 'react';
-import {createTheme} from "@mui/material";
 
 
-function App() {
-  const [mode,setMode]=useState("light");
-  const darkTheme=createTheme({
-    palette:{
-      mode:mode
-    }
-  })
+import Contact from "./components/contact/Contact";
+import Intro from "./components/intro/Intro";
+import ProductList from "./components/productList/ProductList";
+
+
+const App = () => {
+  
   return (
-
-    <ThemeProvider theme={darkTheme}>
-        <Box bgcolor={"background.default"} color={"text.primary"}>
-      <Navbar/>
-    <Stack  direction="row"  spacing={2} justifyContent="space-around">
-    <Sidebar setMode={setMode} mode={mode}/>
-    <Feed/>
-    <Rightbar/>
-    
-    </Stack>
-    <Add/>
-    </Box>
-
-
-    </ThemeProvider>
+    <>
+     
+      <Intro />
+      <ProductList/>
+      
    
+      
+      <Contact /> 
+      </>
+    
   );
-}
+};
 
 export default App;
