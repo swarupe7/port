@@ -18,7 +18,21 @@ export const products = [
       id: 3,
       img: three,
       link: "https://utube-seven.vercel.app",
+    },{
+    id:4,
+        img:pdfX-1,
+        link:"https://pdf-x-1zmy.onrender.com/"
+    
+    
+    },{
+    id:5,
+        img:ylite,
+        link:"https://rococo-gecko-4700df.netlify.app/"
+    
     }
+
+    
+    
    
   ];
   
