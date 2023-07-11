@@ -21,13 +21,13 @@ export const products = [
     },{
     id:4,
         img:pdfX,
-        link:"https://pdf-x-1zmy.onrender.com/"
+        link:"https://pdf-x-1zmy.onrender.com"
     
     
     },{
     id:5,
         img:ylite,
-        link:"https://rococo-gecko-4700df.netlify.app/"
+        link:"https://rococo-gecko-4700df.netlify.app"
     
     }
 
