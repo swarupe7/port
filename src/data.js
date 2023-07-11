@@ -20,7 +20,7 @@ export const products = [
       link: "https://utube-seven.vercel.app",
     },{
     id:4,
-        img:pdfX-1,
+        img:pdfX,
         link:"https://pdf-x-1zmy.onrender.com/"
     
     
