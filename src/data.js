@@ -3,6 +3,7 @@ import two from  "../src/img/two.png";
 import three from  "../src/img/three.png";
 import ylite from "../src/img/ylite.png";
 import pdfX from "../src/img/pdfX.png";
+import medplant from "../src/img/medplant.png";
 
 
 export const products = [
@@ -30,6 +31,12 @@ export const products = [
     id:5,
         img:pdfX,
         link:"https://pdf-x-1zmy.onrender.com/",
+    
+    },
+      {
+    id:6,
+        img:medplant,
+        link:"https://swarupe7.github.io/MedPlant/home.html",
     
     }
 
