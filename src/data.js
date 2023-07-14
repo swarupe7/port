@@ -1,6 +1,7 @@
 import one from  "../src/img/one.png";
 import two from  "../src/img/two.png";
 import three from  "../src/img/three.png";
+import ylite from "../src/img/ylite.png";
 
 
 export const products = [
