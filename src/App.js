@@ -17,7 +17,7 @@ const App = () => {
       
       <ProductList/>
       <p className="pl-desc" style={{ textAlign: "center" }}>
-        wanna see my GITHUB profile{" "}<br/>
+        <h3>wanna see my GITHUB profile{" "}<h3/><br/>
         <button onClick={handleClick}>click Here!!</button>
       </p>
       
