@@ -15,7 +15,7 @@ const App = () => {
      
       <Intro />
       <p className="pl-desc" style={{ textAlign: "center" }}>
-        wanna see my GITHUB profile{" "}
+        wanna see my GITHUB profile{" "}<br/>
         <button onClick={handleClick}>click Here!!</button>
       </p>
       <ProductList/>
