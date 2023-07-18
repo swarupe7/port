@@ -6,11 +6,18 @@ import ProductList from "./components/productList/ProductList";
 
 
 const App = () => {
+   const handleClick = () => {
+    window.location.replace("https://www.github.com/swarupe7");
+  };
   
   return (
     <>
      
       <Intro />
+      <p className="pl-desc" style={{ textAlign: "center" }}>
+        wanna see my GITHUB profile{" "}
+        <button onClick={handleClick}>click Here!!</button>
+      </p>
       <ProductList/>
       
    
